@@ -189,8 +189,8 @@ export default class weather2 extends React.Component {
               </Text>
             </View>
             <View style={styles.container}>
-              <Text style={styles.box}> Latitud: {this.state.latitude}</Text>
-              <Text style={styles.box}> Longitud: {this.state.longitude}</Text>
+              <Text style={styles.box}> Latitude: {this.state.latitude}</Text>
+              <Text style={styles.box}> Longitude: {this.state.longitude}</Text>
             </View>
             <View style={styles.container}>
               <Text style={styles.box} numberOfLines={2}>
