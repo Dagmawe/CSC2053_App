@@ -129,6 +129,12 @@ export default class weather2 extends React.Component {
       background: check,
     });
     console.log(response);
+    if (Math.round(this.state.Temp * (9 / 5) + 32) <= 32) {
+      alert("Cold weather conditions");
+    }
+    if (Math.round(this.state.Temp * (9 / 5) + 32) >= 90) {
+      alert("Hot weather conditions");
+    }
   };
 
   timeConverter = (timestamp) => {
